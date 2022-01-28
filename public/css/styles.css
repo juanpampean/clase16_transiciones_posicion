@@ -9,6 +9,10 @@ body{
     background-color: #ebebeb;
 }
 
+input[type=submit]:hover {
+    background-color: #0022AA;
+}
+
 h3{
     font-size: 24px;
 }
@@ -231,4 +235,35 @@ article div.main-article{
     main section div.products article{
         width: 22%;
     }
+    footer {
+        display:flex;
+    }
+    footer div {
+        display:block;
+    }
+
+
 }
+
+footer{
+    background-color: #Fff;
+    text-align: center;
+   
+  }
+  footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left:1em;
+    margin-right: 1em;
+  }
+  footer h3{
+    font-size: 16px;
+    margin-bottom: 0.5em;
+  }
+  footer p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+    
+    
